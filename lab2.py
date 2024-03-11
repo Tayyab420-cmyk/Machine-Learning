@@ -102,7 +102,7 @@
 #....................................Task 2............................
 def read_file(file_name):
     
-    with open(file_name, 'r') as f:
+    with open("sample.txt", 'r') as f:
         file_contents = f.read()
         print(file_contents)
         return file_contents
@@ -137,4 +137,4 @@ def main():
     file_contents = read_file("sampletext.txt")
     print(read_file_into_list("sampletext.txt"))
     write_first_line_to_file(file_contents, "online.txt")
-    
+
