@@ -52,7 +52,7 @@
 #         print("y is positive or zero")
 # for i in range(2,5):
 #     print(i)
-#     x=0
+# x=0
 # while x<5:
  #     print(x)
  #     x += 1
@@ -62,7 +62,7 @@
 #          print(i,j)
          
 # def greet(name):
-#     return "hello " + name + "!"
+#     return "hello " + name 
 
 # print(greet("Tayyab"))
 
